@@ -1,0 +1,10 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/ambevtech-root-config.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist",
+    "module": "System",
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
